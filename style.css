@@ -1,0 +1,95 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+}
+
+a {
+    color: #000000;
+}
+
+b {
+    background-color: gold;
+}
+
+.pages {
+    color: rgb(0, 0, 0);
+    background-color: #b9d0ef;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.pages:hover {
+    color: rgb(0, 0, 0);
+    background-color: #deecff;
+}
+
+.acc {
+    background-color: #abffa6;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 8px;
+}
+
+.rad {
+    background-color: #f7a1a1;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 8px;
+}
+
+.aero {
+    background-color: #9fb2ff;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 8px;
+}
+
+.ytb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ytb img {
+    width: 96px;
+    height: 54px;
+}
+
+ul {
+    list-style: none;
+}
+
+.esp {
+    text-decoration: none;
+    background: none;
+}
+
+body {
+    position: relative;
+    isolation: isolate;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: -5px;
+    background-image: var(--fond);
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    z-index: -1;
+}
